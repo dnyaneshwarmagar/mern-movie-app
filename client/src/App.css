@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: 0 0;
+}
+.list{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% ;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.list >div{
+  border: 2px solid peru;
+  background-color: blanchedalmond;
+  height: 200px;
+}
+
